@@ -5,9 +5,9 @@ public class VariantColorKeywordGUI : MonoBehaviour
 {
   public void OnGUI()
   {
-    KeywordButtonGUI("RED");
-    KeywordButtonGUI("GREEN");
-    KeywordButtonGUI("BLUE");
+    KeywordButtonGUI("_COLOR_RED");
+    KeywordButtonGUI("_COLOR_GREEN");
+    KeywordButtonGUI("_COLOR_BLUE");
   }
 
   private void KeywordButtonGUI(string keyword)
